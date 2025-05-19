@@ -33,7 +33,7 @@
     const OLD2 = localStorage.getItem('ixlAutoAnswerConfigs');
     if (!localStorage.getItem('myNewIxLStorage')) {
         if (OLD1) {
-            localStorage.setItem('myNewIxLStorage', OLD1);
+            localStoragegg.setItem('myNewIxLStorage', OLD1);
             localStorage.removeItem('gpt4o-modelConfigs');
         }
         if (OLD2) {
